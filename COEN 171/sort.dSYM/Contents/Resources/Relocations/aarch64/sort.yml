@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jasonserrano/COEN171/sort'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _readArray, symObjAddr: 0x0, symBinAddr: 0x100003C48, symSize: 0x78 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _a, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0x74, size: 0x8, addend: 0x0, symName: _readArray, symObjAddr: 0x0, symBinAddr: 0x100003C48, symSize: 0x78 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _writeArray, symObjAddr: 0x78, symBinAddr: 0x100003CC0, symSize: 0x88 }
+  - { offsetInCU: 0xBC, offset: 0xBC, size: 0x8, addend: 0x0, symName: _exchange, symObjAddr: 0x100, symBinAddr: 0x100003D48, symSize: 0x3C }
+  - { offsetInCU: 0xFC, offset: 0xFC, size: 0x8, addend: 0x0, symName: _partition, symObjAddr: 0x13C, symBinAddr: 0x100003D84, symSize: 0x10C }
+  - { offsetInCU: 0x16A, offset: 0x16A, size: 0x8, addend: 0x0, symName: _quicksort, symObjAddr: 0x248, symBinAddr: 0x100003E90, symSize: 0x78 }
+  - { offsetInCU: 0x1B8, offset: 0x1B8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2C0, symBinAddr: 0x100003F08, symSize: 0x50 }
+...
